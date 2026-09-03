@@ -7,14 +7,17 @@ public class Triangulo implements FiguraGeometrica {
         this.altura = altura;
     }
 
+    @Override
     public double calculaArea() {
         return (this.base * this.altura) / 2;
     }
 
+    @Override
     public String getNomeFigura() {
         return "Triângulo";
     }
 
+    @Override
     public String toString() {
         return getNomeFigura() + " [base=" + base + ", altura=" + altura +
                ", área=" + calculaArea() + "]";
