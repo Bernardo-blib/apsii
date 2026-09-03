@@ -7,14 +7,17 @@ public class Losango implements FiguraGeometrica {
         this.diagonal2 = diagonal2;
     }
 
+    @Override
     public double calculaArea() {
         return (this.diagonal1 * this.diagonal2) / 2;
     }
 
+    @Override
     public String getNomeFigura() {
         return "Losango";
     }
 
+    @Override
     public String toString() {
         return getNomeFigura() + " [diagonal1=" + diagonal1 +
                ", diagonal2=" + diagonal2 + ", área=" + calculaArea() + "]";
