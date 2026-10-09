@@ -1,6 +1,6 @@
 public class Aluguel {
 	private int diasAlugada;
-	private Fita fita;
+	private Fita fita; 
   
 	public Aluguel(Fita fita, int diasAlugada) {
 		this.fita = fita;
