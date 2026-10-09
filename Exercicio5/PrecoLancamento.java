@@ -2,7 +2,7 @@ public class PrecoLancamento extends Preco {
 
 	@Override
 	public int getCodigo() {
-		return Fita.LANCAMENTO;
+		return Fita.LANCAMENTO; 
 	}
 
 	@Override
