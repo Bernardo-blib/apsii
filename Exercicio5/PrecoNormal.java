@@ -1,7 +1,7 @@
 public class PrecoNormal extends Preco {
 
 	@Override
-	public int getCodigo() {
+	public int getCodigo() { 
 		return Fita.NORMAL;
 	}
 
